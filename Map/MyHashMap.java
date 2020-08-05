@@ -1,4 +1,4 @@
-// time : 0( 1 ), O ( n ) : space : O ( n )
+// time : 0( 1 ), O ( n ), because using simple bst not Self Balancing Bst (O(logn)) : space : O ( n )
 class MyHashSet {
     class Node{
         int hash;
